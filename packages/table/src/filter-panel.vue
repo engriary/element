@@ -113,7 +113,6 @@
         this.handleOutsideClick();
       },
 
-
       handleResetText() {
         this.filterValueText = '';
         this.confirmFilter(this.filterValueText);

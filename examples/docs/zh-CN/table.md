@@ -4,7 +4,7 @@
       return {
         tableData: [{
           date: '2016-05-03',
-          name: '王小虎',
+          name: '周镜波',
           province: '上海',
           city: '普陀区',
           address: '上海市普陀区金沙江路 1518 弄',
@@ -12,7 +12,7 @@
           tag: '家'
         }, {
           date: '2016-05-02',
-          name: '王小虎',
+          name: '林志玲',
           province: '上海',
           city: '普陀区',
           address: '上海市普陀区金沙江路 1518 弄',
@@ -20,7 +20,7 @@
           tag: '公司'
         }, {
           date: '2016-05-04',
-          name: '王小虎',
+          name: '蔡云云',
           province: '上海',
           city: '普陀区',
           address: '上海市普陀区金沙江路 1518 弄',
@@ -28,7 +28,7 @@
           tag: '家'
         }, {
           date: '2016-05-01',
-          name: '王小虎',
+          name: '林长青',
           province: '上海',
           city: '普陀区',
           address: '上海市普陀区金沙江路 1518 弄',
@@ -1607,3 +1607,4 @@
 | filter-multiple | 数据过滤的选项是否多选 | Boolean | — | true |
 | filter-method | 数据过滤使用的方法，如果是多选的筛选项，对每一条数据会执行多次，任意一次返回 true 就会显示。 | Function(value, row) | — | — |
 | filtered-value | 选中的数据过滤项，如果需要自定义表头过滤的渲染方式，可能会需要此属性。 | Array | — | — |
+| filter-type | 过滤方式，默认是checkbox,还有用input输入然后模糊查询。 | String | checkbox,text | checkbox |
