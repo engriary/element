@@ -1,7 +1,7 @@
 <p align="center">
   <img src="https://cdn.rawgit.com/ElemeFE/element/dev/element_logo.svg">
 </p>
-# Element 为美云智数定制版本
+# Element 为定制版本
 
 > A Vue.js 2.0 UI Toolkit for Web.
 
